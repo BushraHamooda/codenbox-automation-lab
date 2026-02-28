@@ -1,122 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
+<testng-results ignored="12" total="13" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="٢٠٢٦-٠٢-٢٠T١٥:٤٦:٤٩ EET" name="Default suite" finished-at="٢٠٢٦-٠٢-٢٠T١٥:٤٧:٠٧ EET" duration-ms="18563">
+  <suite started-at="٢٠٢٦-٠٢-٢٨T٢٢:٠٧:٣٣ EET" name="Default suite" finished-at="٢٠٢٦-٠٢-٢٨T٢٢:٠٧:٤٤ EET" duration-ms="10562">
     <groups>
     </groups>
-    <test started-at="٢٠٢٦-٠٢-٢٠T١٥:٤٦:٤٩ EET" name="Default test" finished-at="٢٠٢٦-٠٢-٢٠T١٥:٤٧:٠٧ EET" duration-ms="18563">
-      <class name="myTaskSolution.HomePage">
-        <test-method is-config="true" signature="mySetup()[pri:0, instance:myTaskSolution.HomePage@44e3a2b2]" started-at="٢٠٢٦-٠٢-٢٠T١٥:٤٦:٤٩ EET" name="mySetup" finished-at="٢٠٢٦-٠٢-٢٠T١٥:٤٦:٥٠ EET" duration-ms="1742" status="PASS">
+    <test started-at="٢٠٢٦-٠٢-٢٨T٢٢:٠٧:٣٣ EET" name="Default test" finished-at="٢٠٢٦-٠٢-٢٨T٢٢:٠٧:٤٤ EET" duration-ms="10562">
+      <class name="myTaskSolution.myTestCases">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:myTaskSolution.myTestCases@4b2a01d4]" started-at="٢٠٢٦-٠٢-٢٨T٢٢:٠٧:٣٣ EET" name="mySetup" finished-at="٢٠٢٦-٠٢-٢٨T٢٢:٠٧:٤٠ EET" duration-ms="7291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySetup -->
-        <test-method signature="Signup()[pri:1, instance:myTaskSolution.HomePage@44e3a2b2]" started-at="٢٠٢٦-٠٢-٢٠T١٥:٤٦:٥٠ EET" name="Signup" finished-at="٢٠٢٦-٠٢-٢٠T١٥:٤٧:٠٠ EET" duration-ms="9192" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:1079)
-at org.testng.Assert.assertEquals(Assert.java:1043)
-at org.testng.Assert.assertEquals(Assert.java:1089)
-at myTaskSolution.HomePage.Signup(HomePage.java:76)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="Iframe()[pri:0, instance:myTaskSolution.myTestCases@4b2a01d4]" started-at="٢٠٢٦-٠٢-٢٨T٢٢:٠٧:٤٠ EET" name="Iframe" finished-at="٢٠٢٦-٠٢-٢٨T٢٢:٠٧:٤٤ EET" duration-ms="3221" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Signup -->
-        <test-method signature="Logout()[pri:2, instance:myTaskSolution.HomePage@44e3a2b2]" started-at="٢٠٢٦-٠٢-٢٠T١٥:٤٧:٠٠ EET" name="Logout" finished-at="٢٠٢٦-٠٢-٢٠T١٥:٤٧:٠٠ EET" duration-ms="709" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Logout -->
-        <test-method signature="Login()[pri:3, instance:myTaskSolution.HomePage@44e3a2b2]" started-at="٢٠٢٦-٠٢-٢٠T١٥:٤٧:٠٠ EET" name="Login" finished-at="٢٠٢٦-٠٢-٢٠T١٥:٤٧:٠٢ EET" duration-ms="1865" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="addRandomeItem()[pri:4, instance:myTaskSolution.HomePage@44e3a2b2]" started-at="٢٠٢٦-٠٢-٢٠T١٥:٤٧:٠٢ EET" name="addRandomeItem" finished-at="٢٠٢٦-٠٢-٢٠T١٥:٤٧:٠٦ EET" duration-ms="3480" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addRandomeItem -->
-        <test-method signature="checkoutProcess()[pri:5, instance:myTaskSolution.HomePage@44e3a2b2]" started-at="٢٠٢٦-٠٢-٢٠T١٥:٤٧:٠٦ EET" name="checkoutProcess" finished-at="٢٠٢٦-٠٢-٢٠T١٥:٤٧:٠٧ EET" duration-ms="1532" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [YOUR ORDER HAS BEEN PROCESSED!] but found [CHECKOUT CONFIRMATION]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [YOUR ORDER HAS BEEN PROCESSED!] but found [CHECKOUT CONFIRMATION]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at myTaskSolution.HomePage.checkoutProcess(HomePage.java:142)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkoutProcess -->
-      </class> <!-- myTaskSolution.HomePage -->
+        </test-method> <!-- Iframe -->
+      </class> <!-- myTaskSolution.myTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
